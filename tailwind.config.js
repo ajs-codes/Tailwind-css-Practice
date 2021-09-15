@@ -12,11 +12,13 @@ module.exports = {
       },
       fontFamily: {
         custom: ['Nunito']
-      }
+      },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      fontWeight: ['hover', 'focus']
+    },
   },
   plugins: [],
 }
